@@ -1,0 +1,48 @@
+{
+    "name": "pushinbr/pam-native-svg",
+    "description": "Native SVG for PAM Native: retained vector nodes, gradients, dashes and render-thread animations on Android Canvas and Core Animation.",
+    "type": "pam-native-plugin",
+    "license": "Apache-2.0",
+    "keywords": [
+        "pam",
+        "native",
+        "svg",
+        "vector",
+        "icons",
+        "progress",
+        "animation",
+        "android",
+        "ios",
+        "php"
+    ],
+    "homepage": "https://github.com/push-in/pam-native-svg",
+    "support": {
+        "issues": "https://github.com/push-in/pam-native-svg/issues",
+        "source": "https://github.com/push-in/pam-native-svg",
+        "docs": "https://github.com/push-in/pam-native-svg/blob/main/docs/svg.md"
+    },
+    "require": {
+        "php": "^8.5",
+        "pushinbr/pam-native": "^1.0"
+    },
+    "require-dev": {
+        "pushinbr/pam-native-plugin-kit": "^0.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pam\\Native\\Svg\\": "src/"
+        }
+    },
+    "extra": {
+        "pam-native": {
+            "plugin": "pam-native.plugin.json"
+        }
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    },
+    "config": {
+        "platform-check": true,
+        "sort-packages": true
+    }
+}

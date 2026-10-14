@@ -1,0 +1,12 @@
+/vendor/
+/composer.lock
+/conformance.json
+/.phpstan.cache/
+/.idea/
+/.DS_Store
+/android/build/
+/android/.gradle/
+/android/local.properties
+/android/.kotlin/
+/.build/
+/android/.deps/

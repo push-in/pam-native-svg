@@ -1,0 +1,16 @@
+{
+    "$schema": "vendor/pushinbr/pam-native-plugin-kit/resources/pam-native.idl.schema.json",
+    "version": 1,
+    "namespace": "Pam.Svg",
+    "enums": {
+        "SvgProperty": {"Opacity": 1, "StrokeDashoffset": 2, "TrimStart": 3, "TrimEnd": 4, "Rotation": 5, "Scale": 6, "TranslateX": 7, "TranslateY": 8, "StrokeWidth": 9},
+        "SvgEasing": {"Linear": 1, "EaseIn": 2, "EaseOut": 3, "EaseInOut": 4},
+        "SvgFit": {"Contain": 1, "Cover": 2, "Stretch": 3},
+        "LineCap": {"Butt": 1, "Round": 2, "Square": 3},
+        "LineJoin": {"Miter": 1, "Round": 2, "Bevel": 3},
+        "FillRule": {"NonZero": 1, "EvenOdd": 2},
+        "GradientUnits": {"ObjectBoundingBox": 1, "UserSpaceOnUse": 2},
+        "SvgEventKind": {"AnimationEnd": 1}
+    },
+    "records": {}
+}
