@@ -23,7 +23,7 @@
     },
     "require": {
         "php": "^8.5",
-        "pushinbr/pam-native": "^1.0"
+        "pushinbr/pam-native": "^1.0.15"
     },
     "require-dev": {
         "pushinbr/pam-native-plugin-kit": "^0.2.0"
